@@ -9,7 +9,7 @@
 # production
 # Actually by request we're now "versioning" this
 # Not anymore
-/build
+# /build
 /docs old
 # IDE
 /.vscode
