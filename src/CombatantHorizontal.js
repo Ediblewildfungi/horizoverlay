@@ -128,9 +128,9 @@ function DamageBar({ dhit, crit, crit_dh, deaths, width, show }) {
   return (
     <div>
       <div className="damage-percent">
-        <span className="damage-dh">^: { dhit }</span>
-        <span className="damage-crit">!: { crit }</span>
-        <span className="damage-dcrit">!!: {crit_dh}</span>
+        <span className="damage-dh">直 { dhit }</span>
+        <span className="damage-crit">暴 { crit }</span>
+        <span className="damage-dcrit">直暴 {crit_dh}</span>
         <span className="damage-deaths">{deaths}</span>
       </div>
     </div>

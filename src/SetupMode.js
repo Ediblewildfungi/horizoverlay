@@ -96,9 +96,9 @@ function SetupModeRaw(props) {
                         />
                       </div>
                       <div className="damage-percent">
-                        <span className="damage-dh">^: {mock.dh}</span>
-                        <span className="damage-crit">!: {mock.crit}</span>
-                        <span className="damage-dcrit">!!: {mock.dcrit}</span>
+                        <span className="damage-dh">直 {mock.dh}</span>
+                        <span className="damage-crit">暴 {mock.crit}</span>
+                        <span className="damage-dcrit">直暴 {mock.dcrit}</span>
                         <span className="damage-deaths">{mock.deaths}</span>
                       </div>
                     </div>
